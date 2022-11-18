@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
 @TestHTTPEndpoint(WeatherController.class)
-class WeatherControllerTest {
+class TownControllerTest {
 
     @Test
     void findAll() {
